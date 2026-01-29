@@ -1,0 +1,95 @@
+name: Tomato Tech News Daily Automation
+
+on:
+  schedule:
+    # 定时触发：每天 UTC 时间 0 8:00 (英国时间)
+    - cron: '0 8 * * *'
+
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - 'scripts/**'
+      - 'requirements.txt'
+      - '.github/workflows/daily.yml'
+
+# 并发控制
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+# 权限设置：允许这个脚本向仓库写入内容
+permissions:
+  contents: write
+
+# 具体的任务定义
+jobs:
+  generate-and-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    
+    steps:
+      # 步骤 1: 拉取代码到虚拟机中
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      # 步骤 2: 安装 Python 环境
+      - name: Setup Python Environment
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      # 步骤 3: 安装项目运行所需的第三方库
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      # 步骤 4: 运行核心程序
+      - name: Run News Pipeline
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_BASE_URL: ${{ secrets.OPENAI_BASE_URL }}
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          NOTIFICATION_TO: ${{ secrets.NOTIFICATION_TO }}
+          ENABLE_IMAGE_GENERATION: ${{ vars.ENABLE_IMAGE_GENERATION || 'false' }}
+          FIREFLY_API_KEY: ${{ secrets.FIREFLY_API_KEY }}
+        run: |
+          # 设置 Python 路径，确保能找到 scripts 目录下的模块
+          export PYTHONPATH=$PYTHONPATH:$(pwd)/scripts
+          # 运行主程序，--days 1 表示抓取最近 1 天的新闻
+          python scripts/main.py --days 1
+
+      # 步骤 5: 验证是否成功生成了网页文件
+      - name: Verify Output
+        run: |
+          if [ ! -f "docs/index.html" ]; then
+            echo "Error: index.html not found in docs/"
+            exit 1
+          fi
+          echo "Build successful, found docs/index.html"
+
+      # 步骤 6: 将生成的 docs 文件夹发布到 GitHub Pages 分支
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs
+          keep_files: true
+          commit_message: "chore: update daily news report [skip ci]" # 自动提交的信息
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
+
+      # 步骤 7: 存档运行结果
+      - name: Archive Results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: daily-report-artifacts
+          path: docs/
+          retention-days: 3         

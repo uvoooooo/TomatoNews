@@ -1,0 +1,44 @@
+# System Files
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+.venv/
+venv/
+ENV/
+
+# Python Artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE Specific
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Project Specific Output
+# Generated news reports and assets
+docs/
+*.log
+*.pdf
+*.png
+
+# Temporary/Cache
+.index.json
+
+# Format
+format/
