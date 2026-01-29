@@ -54,7 +54,7 @@ jobs:
           FIREFLY_API_KEY: ${{ secrets.FIREFLY_API_KEY }}
         run: |
           export PYTHONPATH=$PYTHONPATH:$(pwd)/scripts
-          python scripts/main.py --days 1
+          python scripts/main.py --days 2
 
       - name: Verify Output
         run: |
