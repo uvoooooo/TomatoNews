@@ -64,7 +64,9 @@ cp .env.example .env
 | `RSS_URL` | 可选 | RSS 地址 |
 | `OUTPUT_DIR` | 可选 | 输出目录，默认 `docs` |
 | `GITHUB_PAGES_URL` | 可选 | 站点根 URL，用于邮件中的「打开报告」链接；在 GitHub Actions 里工作流会注入，一般可不填 |
-| `SMTP_*` / `NOTIFICATION_TO` | 可选 | 发信与收件人；不配则跳过邮件 |
+| `SMTP_*` | 可选 | 发信账号；不配则跳过邮件 |
+| `NOTIFICATION_TO` | 可选 | **传统**：单一收件人列表（可逗号分隔），邮件文案语言跟随 `--language` |
+| `NOTIFICATION_TO_ZH` / `NOTIFICATION_TO_EN` | 可选 | **分流**：分别填中文信/英文信的收件人（逗号分隔）。**至少一侧有邮箱**即进入分流模式：会按侧生成 **中文 / 英文** 报告（各一次模型调用），中文列表只收中文邮件+`…-zh.html` 链接，英文列表只收英文邮件+`…-en.html` 链接；此时 **`NOTIFICATION_TO` 不再用于收件人路由**。若两侧都为空，则回退为仅 `--language` 一种报告，并继续使用 `NOTIFICATION_TO` |
 | `ENABLE_IMAGE_GENERATION` | 可选 | 设为 `true` 时需配 `FIREFLY_API_KEY` 等（见 `scripts/config.py`） |
 
 ### 3. 本地生成一期日报

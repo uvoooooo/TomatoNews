@@ -3,6 +3,7 @@ Configuration Module
 Contains all settings, theme definitions, and internationalization (I18N) texts.
 """
 import os
+from typing import Optional, List
 from dotenv import load_dotenv
 
 # Load environment variables from .env file
@@ -38,6 +39,40 @@ SMTP_PORT = _get_env_int("SMTP_PORT", 587)
 SMTP_USER = os.getenv("SMTP_USER")
 SMTP_PASSWORD = os.getenv("SMTP_PASSWORD")
 NOTIFICATION_TO = os.getenv("NOTIFICATION_TO")
+
+
+def _parse_email_list(raw: Optional[str]) -> List[str]:
+    """Split comma/semicolon-separated emails into a stripped list."""
+    if not raw or not str(raw).strip():
+        return []
+    return [p.strip() for p in str(raw).replace(";", ",").split(",") if p.strip()]
+
+
+# Legacy single list (used when NOTIFICATION_TO_ZH / _EN are both unset)
+NOTIFICATION_RECIPIENTS = _parse_email_list(NOTIFICATION_TO)
+# Split lists: if either is non-empty in env, routing uses language-specific templates + report links
+NOTIFICATION_TO_ZH = _parse_email_list(os.getenv("NOTIFICATION_TO_ZH"))
+NOTIFICATION_TO_EN = _parse_email_list(os.getenv("NOTIFICATION_TO_EN"))
+
+
+def use_split_notification_recipients() -> bool:
+    """True when at least one split list has addresses (empty env in CI is not split mode)."""
+    return bool(NOTIFICATION_TO_ZH or NOTIFICATION_TO_EN)
+
+
+def languages_for_pipeline(cli_language: str) -> List[str]:
+    """
+    Which report languages to generate. Split mode: one pass per non-empty recipient list.
+    Legacy mode: single cli_language.
+    """
+    if use_split_notification_recipients():
+        out: List[str] = []
+        if NOTIFICATION_TO_ZH:
+            out.append("zh")
+        if NOTIFICATION_TO_EN:
+            out.append("en")
+        return out if out else [cli_language]
+    return [cli_language]
 
 # Theme Definitions for the generated HTML
 THEMES = {

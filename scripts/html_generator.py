@@ -198,8 +198,11 @@ class PageBuilder:
             "ts": datetime.now().isoformat()
         }
         
-        # Merge and sort
-        log = [e for e in log if e.get("date") != day]
+        # Merge: one row per (date, lang) so zh/en on the same day both appear
+        log = [
+            e for e in log
+            if not (e.get("date") == day and e.get("lang", "zh") == lang)
+        ]
         log.insert(0, entry)
         log = log[:50]
         
