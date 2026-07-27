@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-07-24",
+    "url": "2026-07-24-en.html",
+    "summary": "Anthropic launched Claude Opus 5, sparking debate over its benchmark scores.",
+    "lang": "en",
+    "ts": "2026-07-27T11:34:07.434845"
+  },
+  {
+    "date": "2026-07-24",
+    "url": "2026-07-24-zh.html",
+    "summary": "Anthropic发布Claude Opus 5模型，引发对基准测试的关注和对前沿模型评估的辩论。",
+    "lang": "zh",
+    "ts": "2026-07-27T11:33:57.326084"
+  },
+  {
     "date": "2026-07-23",
     "url": "2026-07-23-en.html",
     "summary": "The Stack v3 is released as the largest open code dataset, enhancing open code models.",
@@ -334,19 +348,5 @@
     "summary": "FrontierCode引入新基准，强调代码可合并性而非仅通过单元测试。",
     "lang": "zh",
     "ts": "2026-06-09T11:25:18.240949"
-  },
-  {
-    "date": "2026-06-05",
-    "url": "2026-06-05-en.html",
-    "summary": "Anthropic's Mythos/Opus cycle sparks debate on AI capabilities and benchmark performance.",
-    "lang": "en",
-    "ts": "2026-06-08T12:40:47.011602"
-  },
-  {
-    "date": "2026-06-05",
-    "url": "2026-06-05-zh.html",
-    "summary": "Anthropic 的 Mythos/Opus 周期引发了关于其性能和潜力的讨论。",
-    "lang": "zh",
-    "ts": "2026-06-08T12:40:35.711074"
   }
 ]
