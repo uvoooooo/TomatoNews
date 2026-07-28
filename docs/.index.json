@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-07-27",
+    "url": "2026-07-27-en.html",
+    "summary": "Moonshot released Kimi K3, a 2.8T-parameter MoE model with significant scaling-efficiency improvements.",
+    "lang": "en",
+    "ts": "2026-07-28T10:42:26.603162"
+  },
+  {
+    "date": "2026-07-27",
+    "url": "2026-07-27-zh.html",
+    "summary": "Moonshot发布Kimi K3开放权重包，包含2.8T参数MoE和104B活动参数。",
+    "lang": "zh",
+    "ts": "2026-07-28T10:42:18.185760"
+  },
+  {
     "date": "2026-07-24",
     "url": "2026-07-24-en.html",
     "summary": "Anthropic launched Claude Opus 5, sparking debate over its benchmark scores.",
@@ -334,19 +348,5 @@
     "summary": "Anthropic发布了Claude Fable 5和Claude Mythos 5，前者为广泛可用，后者为限制访问。",
     "lang": "zh",
     "ts": "2026-06-10T11:45:06.131614"
-  },
-  {
-    "date": "2026-06-08",
-    "url": "2026-06-08-en.html",
-    "summary": "FrontierCode introduces a new benchmark focusing on mergeable software, revealing coding challenges.",
-    "lang": "en",
-    "ts": "2026-06-09T11:25:31.478531"
-  },
-  {
-    "date": "2026-06-08",
-    "url": "2026-06-08-zh.html",
-    "summary": "FrontierCode引入新基准，强调代码可合并性而非仅通过单元测试。",
-    "lang": "zh",
-    "ts": "2026-06-09T11:25:18.240949"
   }
 ]
