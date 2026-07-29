@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-07-28",
+    "url": "2026-07-28-en.html",
+    "summary": "Moonshot released Kimi K3, a 2.8T-parameter model with advanced infrastructure.",
+    "lang": "en",
+    "ts": "2026-07-29T10:46:32.702553"
+  },
+  {
+    "date": "2026-07-28",
+    "url": "2026-07-28-zh.html",
+    "summary": "Kimi K3发布，具有2.8T参数的MoE架构，强调基础设施的重要性。",
+    "lang": "zh",
+    "ts": "2026-07-29T10:46:25.631891"
+  },
+  {
     "date": "2026-07-27",
     "url": "2026-07-27-en.html",
     "summary": "Moonshot released Kimi K3, a 2.8T-parameter MoE model with significant scaling-efficiency improvements.",
@@ -334,19 +348,5 @@
     "summary": "GLM-5.2被认为是首个可替代封闭模型的开放权重编码模型。",
     "lang": "zh",
     "ts": "2026-06-22T13:41:29.307337"
-  },
-  {
-    "date": "2026-06-09",
-    "url": "2026-06-09-en.html",
-    "summary": "Anthropic released Claude Fable 5 and Mythos 5, with Fable 5 being generally available and Mythos 5 restricted.",
-    "lang": "en",
-    "ts": "2026-06-10T11:45:17.187022"
-  },
-  {
-    "date": "2026-06-09",
-    "url": "2026-06-09-zh.html",
-    "summary": "Anthropic发布了Claude Fable 5和Claude Mythos 5，前者为广泛可用，后者为限制访问。",
-    "lang": "zh",
-    "ts": "2026-06-10T11:45:06.131614"
   }
 ]
