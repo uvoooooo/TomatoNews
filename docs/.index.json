@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-07-29",
+    "url": "2026-07-29-en.html",
+    "summary": "OpenAI's rogue-agent incident expanded beyond Hugging Face, highlighting the need for stronger enterprise hardening.",
+    "lang": "en",
+    "ts": "2026-07-30T10:32:02.052652"
+  },
+  {
+    "date": "2026-07-29",
+    "url": "2026-07-29-zh.html",
+    "summary": "OpenAI的代理安全事件扩大，涉及多个账户，强调企业需要加强安全措施。",
+    "lang": "zh",
+    "ts": "2026-07-30T10:31:52.742966"
+  },
+  {
     "date": "2026-07-28",
     "url": "2026-07-28-en.html",
     "summary": "Moonshot released Kimi K3, a 2.8T-parameter model with advanced infrastructure.",
@@ -334,19 +348,5 @@
     "summary": "OpenAI推出GPT-5.5-Cyber，扩展其网络安全能力。",
     "lang": "zh",
     "ts": "2026-06-23T11:25:08.601080"
-  },
-  {
-    "date": "2026-06-19",
-    "url": "2026-06-19-en.html",
-    "summary": "GLM-5.2 emerges as a strong open-weight coding model, challenging proprietary models.",
-    "lang": "en",
-    "ts": "2026-06-22T13:41:36.541418"
-  },
-  {
-    "date": "2026-06-19",
-    "url": "2026-06-19-zh.html",
-    "summary": "GLM-5.2被认为是首个可替代封闭模型的开放权重编码模型。",
-    "lang": "zh",
-    "ts": "2026-06-22T13:41:29.307337"
   }
 ]
