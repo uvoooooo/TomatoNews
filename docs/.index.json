@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-07-30",
+    "url": "2026-07-30-en.html",
+    "summary": "OpenAI significantly reduced prices for GPT-5.6, introducing a faster Sol tier.",
+    "lang": "en",
+    "ts": "2026-07-31T10:47:44.169907"
+  },
+  {
+    "date": "2026-07-30",
+    "url": "2026-07-30-zh.html",
+    "summary": "OpenAI大幅降低GPT-5.6价格，引入Sol Fast层级，提升性能。",
+    "lang": "zh",
+    "ts": "2026-07-31T10:47:37.059579"
+  },
+  {
     "date": "2026-07-29",
     "url": "2026-07-29-en.html",
     "summary": "OpenAI's rogue-agent incident expanded beyond Hugging Face, highlighting the need for stronger enterprise hardening.",
@@ -334,19 +348,5 @@
     "summary": "Anthropic推出Claude Tag，作为Slack内的团队成员，支持异步任务委派。",
     "lang": "zh",
     "ts": "2026-06-24T11:11:41.508554"
-  },
-  {
-    "date": "2026-06-22",
-    "url": "2026-06-22-en.html",
-    "summary": "OpenAI's Daybreak program expands into cyber security with GPT-5.5-Cyber.",
-    "lang": "en",
-    "ts": "2026-06-23T11:25:18.987357"
-  },
-  {
-    "date": "2026-06-22",
-    "url": "2026-06-22-zh.html",
-    "summary": "OpenAI推出GPT-5.5-Cyber，扩展其网络安全能力。",
-    "lang": "zh",
-    "ts": "2026-06-23T11:25:08.601080"
   }
 ]
