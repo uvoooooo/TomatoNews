@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-07-31",
+    "url": "2026-07-31-en.html",
+    "summary": "DeepSeek V4-Flash API launched with significant performance improvements.",
+    "lang": "en",
+    "ts": "2026-08-03T11:36:18.049334"
+  },
+  {
+    "date": "2026-07-31",
+    "url": "2026-07-31-zh.html",
+    "summary": "DeepSeek-V4-Flash API发布，性能超越V4-Pro-Preview。",
+    "lang": "zh",
+    "ts": "2026-08-03T11:36:09.224275"
+  },
+  {
     "date": "2026-07-30",
     "url": "2026-07-30-en.html",
     "summary": "OpenAI significantly reduced prices for GPT-5.6, introducing a faster Sol tier.",
@@ -334,19 +348,5 @@
     "summary": "OpenAI推出首款定制AI芯片Jalapeño，旨在增强LLM推理能力。",
     "lang": "zh",
     "ts": "2026-06-25T10:49:55.921250"
-  },
-  {
-    "date": "2026-06-23",
-    "url": "2026-06-23-en.html",
-    "summary": "Anthropic launched Claude Tag, a Slack-native feature for team collaboration.",
-    "lang": "en",
-    "ts": "2026-06-24T11:11:45.602931"
-  },
-  {
-    "date": "2026-06-23",
-    "url": "2026-06-23-zh.html",
-    "summary": "Anthropic推出Claude Tag，作为Slack内的团队成员，支持异步任务委派。",
-    "lang": "zh",
-    "ts": "2026-06-24T11:11:41.508554"
   }
 ]
