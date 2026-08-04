@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-08-03",
+    "url": "2026-08-03-en.html",
+    "summary": "Alibaba launches Qwen3.8-Max, a 2.4T-parameter model with open weights coming soon.",
+    "lang": "en",
+    "ts": "2026-08-04T10:47:02.590345"
+  },
+  {
+    "date": "2026-08-03",
+    "url": "2026-08-03-zh.html",
+    "summary": "阿里巴巴发布Qwen3.8-Max，强调自主编码和多模态反馈。",
+    "lang": "zh",
+    "ts": "2026-08-04T10:46:53.912428"
+  },
+  {
     "date": "2026-07-31",
     "url": "2026-07-31-en.html",
     "summary": "DeepSeek V4-Flash API launched with significant performance improvements.",
@@ -334,19 +348,5 @@
     "summary": "GLM-5.2在编码和代理基准测试中表现出色。",
     "lang": "zh",
     "ts": "2026-06-26T11:10:46.704560"
-  },
-  {
-    "date": "2026-06-24",
-    "url": "2026-06-24-en.html",
-    "summary": "OpenAI announced Jalapeño, its first custom AI chip, aiming for full-stack AI infrastructure control.",
-    "lang": "en",
-    "ts": "2026-06-25T10:50:03.559977"
-  },
-  {
-    "date": "2026-06-24",
-    "url": "2026-06-24-zh.html",
-    "summary": "OpenAI推出首款定制AI芯片Jalapeño，旨在增强LLM推理能力。",
-    "lang": "zh",
-    "ts": "2026-06-25T10:49:55.921250"
   }
 ]
