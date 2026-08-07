@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-08-06",
+    "url": "2026-08-06-en.html",
+    "summary": "Meta's Muse Spark 1.2 achieves top 5 status on Vals Index with significant cost and performance advantages.",
+    "lang": "en",
+    "ts": "2026-08-07T09:09:06.183979"
+  },
+  {
+    "date": "2026-08-06",
+    "url": "2026-08-06-zh.html",
+    "summary": "Meta的Muse Spark 1.2在性能和价格上取得突破，成为前沿模型。",
+    "lang": "zh",
+    "ts": "2026-08-07T09:08:59.200019"
+  },
+  {
     "date": "2026-08-05",
     "url": "2026-08-05-en.html",
     "summary": "Google DeepMind undergoes leadership reshuffle with Demis Hassabis stepping back to focus on long-term strategy.",
@@ -334,19 +348,5 @@
     "summary": "Anthropic重新启用了Claude Fable 5，并引入了新的安全措施。",
     "lang": "zh",
     "ts": "2026-07-02T10:48:47.379702"
-  },
-  {
-    "date": "2026-06-29",
-    "url": "2026-06-29-en.html",
-    "summary": "Meta's Brain2Qwerty v2 achieves real-time sentence decoding from non-invasive brain signals.",
-    "lang": "en",
-    "ts": "2026-06-30T11:16:42.595970"
-  },
-  {
-    "date": "2026-06-29",
-    "url": "2026-06-29-zh.html",
-    "summary": "Meta发布了Brain2Qwerty v2，能够从非侵入性脑信号中实时解码句子。",
-    "lang": "zh",
-    "ts": "2026-06-30T11:16:35.002332"
   }
 ]
