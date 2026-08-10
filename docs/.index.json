@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-08-07",
+    "url": "2026-08-07-en.html",
+    "summary": "OpenAI's Astra model is classified as 'critical' due to cybersecurity concerns, pausing some activities to strengthen co",
+    "lang": "en",
+    "ts": "2026-08-10T09:41:29.440538"
+  },
+  {
+    "date": "2026-08-07",
+    "url": "2026-08-07-zh.html",
+    "summary": "OpenAI的Astra模型被提升为“关键”网络安全状态，显示出显著的编程和网络安全进展。",
+    "lang": "zh",
+    "ts": "2026-08-10T09:41:17.267228"
+  },
+  {
     "date": "2026-08-06",
     "url": "2026-08-06-en.html",
     "summary": "Meta's Muse Spark 1.2 achieves top 5 status on Vals Index with significant cost and performance advantages.",
@@ -334,19 +348,5 @@
     "summary": "Code Arena推出Fullstack Code Arena，推动从前端到完整应用的评估。",
     "lang": "zh",
     "ts": "2026-07-03T10:46:18.810654"
-  },
-  {
-    "date": "2026-07-01",
-    "url": "2026-07-01-en.html",
-    "summary": "Anthropic re-enabled Claude Fable 5 with updated safety measures.",
-    "lang": "en",
-    "ts": "2026-07-02T10:48:57.416085"
-  },
-  {
-    "date": "2026-07-01",
-    "url": "2026-07-01-zh.html",
-    "summary": "Anthropic重新启用了Claude Fable 5，并引入了新的安全措施。",
-    "lang": "zh",
-    "ts": "2026-07-02T10:48:47.379702"
   }
 ]
