@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-08-10",
+    "url": "2026-08-10-en.html",
+    "summary": "Meta released Muse Glimmer, a 30B dense, multimodal model optimized for local agents.",
+    "lang": "en",
+    "ts": "2026-08-11T09:07:56.052027"
+  },
+  {
+    "date": "2026-08-10",
+    "url": "2026-08-10-zh.html",
+    "summary": "Meta发布了Muse Glimmer，一个30B的多模态模型，支持本地部署。",
+    "lang": "zh",
+    "ts": "2026-08-11T09:07:49.070730"
+  },
+  {
     "date": "2026-08-07",
     "url": "2026-08-07-en.html",
     "summary": "OpenAI's Astra model is classified as 'critical' due to cybersecurity concerns, pausing some activities to strengthen co",
@@ -334,19 +348,5 @@
     "summary": "腾讯发布Hy3模型，具有开放权重和强大的推理能力。",
     "lang": "zh",
     "ts": "2026-07-07T11:16:11.448185"
-  },
-  {
-    "date": "2026-07-02",
-    "url": "2026-07-02-en.html",
-    "summary": "Full-stack evaluations are replacing toy coding demos, emphasizing realistic app development.",
-    "lang": "en",
-    "ts": "2026-07-03T10:46:26.972874"
-  },
-  {
-    "date": "2026-07-02",
-    "url": "2026-07-02-zh.html",
-    "summary": "Code Arena推出Fullstack Code Arena，推动从前端到完整应用的评估。",
-    "lang": "zh",
-    "ts": "2026-07-03T10:46:18.810654"
   }
 ]
