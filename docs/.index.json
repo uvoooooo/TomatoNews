@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-08-11",
+    "url": "2026-08-11-en.html",
+    "summary": "A vulnerability in frontier APIs exposed hidden reasoning and sensitive data, raising privacy concerns.",
+    "lang": "en",
+    "ts": "2026-08-12T09:18:48.067586"
+  },
+  {
+    "date": "2026-08-11",
+    "url": "2026-08-11-zh.html",
+    "summary": "Frontier API漏洞暴露了隐藏的推理信息，涉及隐私和安全问题。",
+    "lang": "zh",
+    "ts": "2026-08-12T09:18:39.039036"
+  },
+  {
     "date": "2026-08-10",
     "url": "2026-08-10-en.html",
     "summary": "Meta released Muse Glimmer, a 30B dense, multimodal model optimized for local agents.",
@@ -334,19 +348,5 @@
     "summary": "xAI发布了Grok 4.5，专注于编码和代理，强调性价比而非绝对性能。",
     "lang": "zh",
     "ts": "2026-07-09T11:14:19.680242"
-  },
-  {
-    "date": "2026-07-06",
-    "url": "2026-07-06-en.html",
-    "summary": "Tencent released Hy3, a competitive open model with advanced inference support.",
-    "lang": "en",
-    "ts": "2026-07-07T11:16:23.054900"
-  },
-  {
-    "date": "2026-07-06",
-    "url": "2026-07-06-zh.html",
-    "summary": "腾讯发布Hy3模型，具有开放权重和强大的推理能力。",
-    "lang": "zh",
-    "ts": "2026-07-07T11:16:11.448185"
   }
 ]
