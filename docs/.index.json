@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-08-13",
+    "url": "2026-08-13-en.html",
+    "summary": "Google released Gemini 3.7 Flash with improved coding and autonomy benchmarks, offering a 50% introductory price cut.",
+    "lang": "en",
+    "ts": "2026-08-14T09:14:06.762595"
+  },
+  {
+    "date": "2026-08-13",
+    "url": "2026-08-13-zh.html",
+    "summary": "谷歌发布Gemini 3.7 Flash，性能显著提升，价格优惠。",
+    "lang": "zh",
+    "ts": "2026-08-14T09:14:00.930201"
+  },
+  {
     "date": "2026-08-12",
     "url": "2026-08-12-en.html",
     "summary": "Grok 4.6 by xAI offers competitive performance at lower costs, becoming a new default for coding tasks.",
@@ -334,19 +348,5 @@
     "summary": "OpenAI推出GPT-5.6，强调模型分层和代理用户体验。",
     "lang": "zh",
     "ts": "2026-07-13T11:22:12.497847"
-  },
-  {
-    "date": "2026-07-09",
-    "url": "2026-07-09-en.html",
-    "summary": "OpenAI launched the GPT-5.6 family, including Sol, Terra, and Luna models.",
-    "lang": "en",
-    "ts": "2026-07-10T11:13:36.257897"
-  },
-  {
-    "date": "2026-07-09",
-    "url": "2026-07-09-zh.html",
-    "summary": "OpenAI发布了GPT-5.6系列，包括Sol、Terra和Luna三种模型，扩展了产品组合。",
-    "lang": "zh",
-    "ts": "2026-07-10T11:13:30.633959"
   }
 ]
