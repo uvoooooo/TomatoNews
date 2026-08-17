@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-08-14",
+    "url": "2026-08-14-en.html",
+    "summary": "Z.ai launched GLM-5.3, a coding- and cyber-focused model with significant gains from post-training.",
+    "lang": "en",
+    "ts": "2026-08-17T08:53:16.708604"
+  },
+  {
+    "date": "2026-08-14",
+    "url": "2026-08-14-zh.html",
+    "summary": "Z.ai发布GLM-5.3，专注于编码和网络安全，提升了代理和安全评估的性能。",
+    "lang": "zh",
+    "ts": "2026-08-17T08:53:10.692106"
+  },
+  {
     "date": "2026-08-13",
     "url": "2026-08-13-en.html",
     "summary": "Google released Gemini 3.7 Flash with improved coding and autonomy benchmarks, offering a 50% introductory price cut.",
@@ -334,19 +348,5 @@
     "summary": "Prime Intellect发布了verifiers v1，显著提高了agentic RL的效率。",
     "lang": "zh",
     "ts": "2026-07-14T10:05:58.293659"
-  },
-  {
-    "date": "2026-07-10",
-    "url": "2026-07-10-en.html",
-    "summary": "OpenAI's GPT-5.6 introduces model stratification and faces mixed user reactions.",
-    "lang": "en",
-    "ts": "2026-07-13T11:22:25.490140"
-  },
-  {
-    "date": "2026-07-10",
-    "url": "2026-07-10-zh.html",
-    "summary": "OpenAI推出GPT-5.6，强调模型分层和代理用户体验。",
-    "lang": "zh",
-    "ts": "2026-07-13T11:22:12.497847"
   }
 ]
