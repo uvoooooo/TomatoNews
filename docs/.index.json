@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-08-17",
+    "url": "2026-08-17-en.html",
+    "summary": "OpenAI is expanding its infrastructure with a massive 8 GW campus in Ohio.",
+    "lang": "en",
+    "ts": "2026-08-18T08:47:14.157304"
+  },
+  {
+    "date": "2026-08-17",
+    "url": "2026-08-17-zh.html",
+    "summary": "OpenAI正在通过与NVIDIA合作在俄亥俄州建立8GW的数据中心，控制整个基础设施堆栈。",
+    "lang": "zh",
+    "ts": "2026-08-18T08:47:06.776813"
+  },
+  {
     "date": "2026-08-14",
     "url": "2026-08-14-en.html",
     "summary": "Z.ai launched GLM-5.3, a coding- and cyber-focused model with significant gains from post-training.",
@@ -334,19 +348,5 @@
     "summary": "OpenAI的Codex和ChatGPT Work使用量在一周内增长了2.5倍。",
     "lang": "zh",
     "ts": "2026-07-15T10:10:09.061787"
-  },
-  {
-    "date": "2026-07-13",
-    "url": "2026-07-13-en.html",
-    "summary": "Prime Intellect released verifiers v1, optimizing agentic RL infrastructure with message DAGs for efficiency.",
-    "lang": "en",
-    "ts": "2026-07-14T10:06:10.917920"
-  },
-  {
-    "date": "2026-07-13",
-    "url": "2026-07-13-zh.html",
-    "summary": "Prime Intellect发布了verifiers v1，显著提高了agentic RL的效率。",
-    "lang": "zh",
-    "ts": "2026-07-14T10:05:58.293659"
   }
 ]
