@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-08-18",
+    "url": "2026-08-18-en.html",
+    "summary": "OpenAI paused frontier RL training to enhance security and alignment controls.",
+    "lang": "en",
+    "ts": "2026-08-19T08:47:21.762238"
+  },
+  {
+    "date": "2026-08-18",
+    "url": "2026-08-18-zh.html",
+    "summary": "OpenAI暂停前沿RL训练以加强安全和对齐控制。",
+    "lang": "zh",
+    "ts": "2026-08-19T08:47:14.739599"
+  },
+  {
     "date": "2026-08-17",
     "url": "2026-08-17-en.html",
     "summary": "OpenAI is expanding its infrastructure with a massive 8 GW campus in Ohio.",
@@ -334,19 +348,5 @@
     "summary": "Thinking Machines Lab发布了其首个开源权重基础模型家族Inkling，支持文本、图像和音频输入。",
     "lang": "zh",
     "ts": "2026-07-16T10:18:47.056843"
-  },
-  {
-    "date": "2026-07-14",
-    "url": "2026-07-14-en.html",
-    "summary": "OpenAI's Codex and ChatGPT Work usage surged 2.5x in a week, highlighting strong demand for GPT-5.6 Sol.",
-    "lang": "en",
-    "ts": "2026-07-15T10:10:18.829340"
-  },
-  {
-    "date": "2026-07-14",
-    "url": "2026-07-14-zh.html",
-    "summary": "OpenAI的Codex和ChatGPT Work使用量在一周内增长了2.5倍。",
-    "lang": "zh",
-    "ts": "2026-07-15T10:10:09.061787"
   }
 ]
