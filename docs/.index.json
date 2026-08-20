@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-08-19",
+    "url": "2026-08-19-en.html",
+    "summary": "Ornith-1.5 introduces self-improvement capabilities in open-weight models.",
+    "lang": "en",
+    "ts": "2026-08-20T08:49:07.506092"
+  },
+  {
+    "date": "2026-08-19",
+    "url": "2026-08-19-zh.html",
+    "summary": "Ornith-1.5发布，具有自我改进能力，评估结果强劲。",
+    "lang": "zh",
+    "ts": "2026-08-20T08:48:57.015875"
+  },
+  {
     "date": "2026-08-18",
     "url": "2026-08-18-en.html",
     "summary": "OpenAI paused frontier RL training to enhance security and alignment controls.",
@@ -334,19 +348,5 @@
     "summary": "Moonshot发布Kimi K3，成为最大开源模型，参数达2.8万亿。",
     "lang": "zh",
     "ts": "2026-07-17T10:06:48.168575"
-  },
-  {
-    "date": "2026-07-15",
-    "url": "2026-07-15-en.html",
-    "summary": "Thinking Machines Lab launched Inkling, a customizable multimodal base model with open weights.",
-    "lang": "en",
-    "ts": "2026-07-16T10:18:54.586836"
-  },
-  {
-    "date": "2026-07-15",
-    "url": "2026-07-15-zh.html",
-    "summary": "Thinking Machines Lab发布了其首个开源权重基础模型家族Inkling，支持文本、图像和音频输入。",
-    "lang": "zh",
-    "ts": "2026-07-16T10:18:47.056843"
   }
 ]
