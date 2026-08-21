@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-08-20",
+    "url": "2026-08-20-en.html",
+    "summary": "OpenAI and Anthropic expand their agent platforms with new features and APIs.",
+    "lang": "en",
+    "ts": "2026-08-21T08:50:30.746867"
+  },
+  {
+    "date": "2026-08-20",
+    "url": "2026-08-20-zh.html",
+    "summary": "OpenAI推出了适用于Mac的ChatGPT Apple Messages插件，增强了桌面应用的功能。",
+    "lang": "zh",
+    "ts": "2026-08-21T08:50:23.665805"
+  },
+  {
     "date": "2026-08-19",
     "url": "2026-08-19-en.html",
     "summary": "Ornith-1.5 introduces self-improvement capabilities in open-weight models.",
@@ -334,19 +348,5 @@
     "summary": "Moonshot发布的Kimi K3模型引发了对中国开放权重模型与前沿技术接近程度的重新评估。",
     "lang": "zh",
     "ts": "2026-07-20T11:09:11.121400"
-  },
-  {
-    "date": "2026-07-16",
-    "url": "2026-07-16-en.html",
-    "summary": "Moonshot AI launched Kimi K3, a frontier-class open-weights model with 2.8 trillion parameters and 1M-token context.",
-    "lang": "en",
-    "ts": "2026-07-17T10:06:55.537723"
-  },
-  {
-    "date": "2026-07-16",
-    "url": "2026-07-16-zh.html",
-    "summary": "Moonshot发布Kimi K3，成为最大开源模型，参数达2.8万亿。",
-    "lang": "zh",
-    "ts": "2026-07-17T10:06:48.168575"
   }
 ]
