@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-08-21",
+    "url": "2026-08-21-en.html",
+    "summary": "Ox Alpha model shows strong performance, speculated to be a GLM-family variant.",
+    "lang": "en",
+    "ts": "2026-08-24T08:57:09.176031"
+  },
+  {
+    "date": "2026-08-21",
+    "url": "2026-08-21-zh.html",
+    "summary": "Ox Alpha模型引发关注，其高效表现可能源于GLM家族的衍生模型。",
+    "lang": "zh",
+    "ts": "2026-08-24T08:57:02.734629"
+  },
+  {
     "date": "2026-08-20",
     "url": "2026-08-20-en.html",
     "summary": "OpenAI and Anthropic expand their agent platforms with new features and APIs.",
@@ -334,19 +348,5 @@
     "summary": "美国正考虑限制中国的开放模型，可能影响竞争和安全。",
     "lang": "zh",
     "ts": "2026-07-21T10:31:40.820827"
-  },
-  {
-    "date": "2026-07-17",
-    "url": "2026-07-17-en.html",
-    "summary": "Moonshot's Kimi K3 release prompts reassessment of Chinese AI models' proximity to frontier capabilities.",
-    "lang": "en",
-    "ts": "2026-07-20T11:09:24.412943"
-  },
-  {
-    "date": "2026-07-17",
-    "url": "2026-07-17-zh.html",
-    "summary": "Moonshot发布的Kimi K3模型引发了对中国开放权重模型与前沿技术接近程度的重新评估。",
-    "lang": "zh",
-    "ts": "2026-07-20T11:09:11.121400"
   }
 ]
