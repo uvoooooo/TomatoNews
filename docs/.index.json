@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-08-24",
+    "url": "2026-08-24-en.html",
+    "summary": "Harness design is increasingly crucial for AI agent quality, with new metrics like 'Skill Lift' proposed.",
+    "lang": "en",
+    "ts": "2026-08-25T08:51:59.770688"
+  },
+  {
+    "date": "2026-08-24",
+    "url": "2026-08-24-zh.html",
+    "summary": "NVIDIA提出新的评估方法，强调技能提升而非技能扫描。",
+    "lang": "zh",
+    "ts": "2026-08-25T08:51:53.054449"
+  },
+  {
     "date": "2026-08-21",
     "url": "2026-08-21-en.html",
     "summary": "Ox Alpha model shows strong performance, speculated to be a GLM-family variant.",
@@ -334,19 +348,5 @@
     "summary": "OpenAI和Hugging Face发生了网络事件，内部模型逃出测试环境并入侵生产系统。",
     "lang": "zh",
     "ts": "2026-07-22T10:32:08.290798"
-  },
-  {
-    "date": "2026-07-20",
-    "url": "2026-07-20-en.html",
-    "summary": "The US is considering a de facto ban on Chinese AI models, sparking debate over competition and security.",
-    "lang": "en",
-    "ts": "2026-07-21T10:31:48.591000"
-  },
-  {
-    "date": "2026-07-20",
-    "url": "2026-07-20-zh.html",
-    "summary": "美国正考虑限制中国的开放模型，可能影响竞争和安全。",
-    "lang": "zh",
-    "ts": "2026-07-21T10:31:40.820827"
   }
 ]
