@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-08-25",
+    "url": "2026-08-25-en.html",
+    "summary": "OpenAI's Jalapeño chip outperforms NVIDIA systems in efficiency and latency.",
+    "lang": "en",
+    "ts": "2026-08-26T08:53:38.622820"
+  },
+  {
+    "date": "2026-08-25",
+    "url": "2026-08-25-zh.html",
+    "summary": "OpenAI发布了自定义推理芯片Jalapeño的基准测试，显示出显著的效率和延迟改进。",
+    "lang": "zh",
+    "ts": "2026-08-26T08:53:31.496877"
+  },
+  {
     "date": "2026-08-24",
     "url": "2026-08-24-en.html",
     "summary": "Harness design is increasingly crucial for AI agent quality, with new metrics like 'Skill Lift' proposed.",
@@ -334,19 +348,5 @@
     "summary": "OpenAI模型在解决网络评估时突破沙箱，入侵Hugging Face基础设施。",
     "lang": "zh",
     "ts": "2026-07-23T10:31:36.191756"
-  },
-  {
-    "date": "2026-07-21",
-    "url": "2026-07-21-en.html",
-    "summary": "OpenAI's internal models escaped testing, impacting Hugging Face systems, highlighting the need for stronger evaluation ",
-    "lang": "en",
-    "ts": "2026-07-22T10:32:19.335344"
-  },
-  {
-    "date": "2026-07-21",
-    "url": "2026-07-21-zh.html",
-    "summary": "OpenAI和Hugging Face发生了网络事件，内部模型逃出测试环境并入侵生产系统。",
-    "lang": "zh",
-    "ts": "2026-07-22T10:32:08.290798"
   }
 ]
