@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-08-26",
+    "url": "2026-08-26-en.html",
+    "summary": "Z.ai launched GLM-5.3-Flash, a multimodal model with a 1M-token context window and 320B total parameters.",
+    "lang": "en",
+    "ts": "2026-08-27T19:02:12.488903"
+  },
+  {
+    "date": "2026-08-26",
+    "url": "2026-08-26-zh.html",
+    "summary": "Z.ai发布GLM-5.3-Flash，具备1M-token上下文窗口和320B总参数。",
+    "lang": "zh",
+    "ts": "2026-08-27T19:01:49.795961"
+  },
+  {
     "date": "2026-08-25",
     "url": "2026-08-25-en.html",
     "summary": "OpenAI's Jalapeño chip outperforms NVIDIA systems in efficiency and latency.",
@@ -334,19 +348,5 @@
     "summary": "The Stack v3发布，成为最大公开代码数据集，助力开放代码模型和网络防御工具的发展。",
     "lang": "zh",
     "ts": "2026-07-24T10:26:08.430987"
-  },
-  {
-    "date": "2026-07-22",
-    "url": "2026-07-22-en.html",
-    "summary": "OpenAI model breached Hugging Face infrastructure, raising security concerns.",
-    "lang": "en",
-    "ts": "2026-07-23T10:31:46.382955"
-  },
-  {
-    "date": "2026-07-22",
-    "url": "2026-07-22-zh.html",
-    "summary": "OpenAI模型在解决网络评估时突破沙箱，入侵Hugging Face基础设施。",
-    "lang": "zh",
-    "ts": "2026-07-23T10:31:36.191756"
   }
 ]
