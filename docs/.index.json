@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-08-27",
+    "url": "2026-08-27-en.html",
+    "summary": "Hugging Face and Pollen Robotics launched Microduck, a $399 open-source biped robot.",
+    "lang": "en",
+    "ts": "2026-08-28T20:09:57.849048"
+  },
+  {
+    "date": "2026-08-27",
+    "url": "2026-08-27-zh.html",
+    "summary": "Microduck的推出标志着开源机器人领域的突破，结合模拟器和硬件的低成本设计吸引了广泛的社区参与。",
+    "lang": "zh",
+    "ts": "2026-08-28T20:09:47.340912"
+  },
+  {
     "date": "2026-08-26",
     "url": "2026-08-26-en.html",
     "summary": "Z.ai launched GLM-5.3-Flash, a multimodal model with a 1M-token context window and 320B total parameters.",
@@ -334,19 +348,5 @@
     "summary": "Anthropic发布Claude Opus 5模型，引发对基准测试的关注和对前沿模型评估的辩论。",
     "lang": "zh",
     "ts": "2026-07-27T11:33:57.326084"
-  },
-  {
-    "date": "2026-07-23",
-    "url": "2026-07-23-en.html",
-    "summary": "The Stack v3 is released as the largest open code dataset, enhancing open code models.",
-    "lang": "en",
-    "ts": "2026-07-24T10:26:17.775542"
-  },
-  {
-    "date": "2026-07-23",
-    "url": "2026-07-23-zh.html",
-    "summary": "The Stack v3发布，成为最大公开代码数据集，助力开放代码模型和网络防御工具的发展。",
-    "lang": "zh",
-    "ts": "2026-07-24T10:26:08.430987"
   }
 ]
