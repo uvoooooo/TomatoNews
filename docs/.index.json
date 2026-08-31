@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-08-28",
+    "url": "2026-08-28-en.html",
+    "summary": "Open-weight models like GLM-5.3 and Hy4-preview are being released, enhancing AI capabilities in coding and cyber defens",
+    "lang": "en",
+    "ts": "2026-08-31T16:06:32.244250"
+  },
+  {
+    "date": "2026-08-28",
+    "url": "2026-08-28-zh.html",
+    "summary": "Z.ai发布GLM-5.3，支持代理编码和网络防御。",
+    "lang": "zh",
+    "ts": "2026-08-31T16:06:18.077334"
+  },
+  {
     "date": "2026-08-27",
     "url": "2026-08-27-en.html",
     "summary": "Hugging Face and Pollen Robotics launched Microduck, a $399 open-source biped robot.",
@@ -334,19 +348,5 @@
     "summary": "Moonshot发布Kimi K3开放权重包，包含2.8T参数MoE和104B活动参数。",
     "lang": "zh",
     "ts": "2026-07-28T10:42:18.185760"
-  },
-  {
-    "date": "2026-07-24",
-    "url": "2026-07-24-en.html",
-    "summary": "Anthropic launched Claude Opus 5, sparking debate over its benchmark scores.",
-    "lang": "en",
-    "ts": "2026-07-27T11:34:07.434845"
-  },
-  {
-    "date": "2026-07-24",
-    "url": "2026-07-24-zh.html",
-    "summary": "Anthropic发布Claude Opus 5模型，引发对基准测试的关注和对前沿模型评估的辩论。",
-    "lang": "zh",
-    "ts": "2026-07-27T11:33:57.326084"
   }
 ]
