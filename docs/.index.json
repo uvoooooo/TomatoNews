@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-09-01",
+    "url": "2026-09-01-en.html",
+    "summary": "Anthropic launched Claude Fable 5.1 and Claude Mythos 5.1, claiming them as the world's most advanced models for coding ",
+    "lang": "en",
+    "ts": "2026-09-02T12:43:16.144271"
+  },
+  {
+    "date": "2026-09-01",
+    "url": "2026-09-01-zh.html",
+    "summary": "Anthropic发布了Claude Fable 5.1和Claude Mythos 5.1，定位为世界上最先进的编码和知识工作模型。",
+    "lang": "zh",
+    "ts": "2026-09-02T12:43:07.619835"
+  },
+  {
     "date": "2026-08-31",
     "url": "2026-08-31-en.html",
     "summary": "Meta's Muse Code exits beta with SDK and subscriptions, enhancing coding agent capabilities.",
@@ -334,19 +348,5 @@
     "summary": "OpenAI的代理安全事件扩大，涉及多个账户，强调企业需要加强安全措施。",
     "lang": "zh",
     "ts": "2026-07-30T10:31:52.742966"
-  },
-  {
-    "date": "2026-07-28",
-    "url": "2026-07-28-en.html",
-    "summary": "Moonshot released Kimi K3, a 2.8T-parameter model with advanced infrastructure.",
-    "lang": "en",
-    "ts": "2026-07-29T10:46:32.702553"
-  },
-  {
-    "date": "2026-07-28",
-    "url": "2026-07-28-zh.html",
-    "summary": "Kimi K3发布，具有2.8T参数的MoE架构，强调基础设施的重要性。",
-    "lang": "zh",
-    "ts": "2026-07-29T10:46:25.631891"
   }
 ]
