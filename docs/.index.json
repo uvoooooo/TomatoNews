@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-09-02",
+    "url": "2026-09-02-en.html",
+    "summary": "Stanford revamps AI-native software engineering curriculum with focus on agent skills.",
+    "lang": "en",
+    "ts": "2026-09-03T12:46:13.216449"
+  },
+  {
+    "date": "2026-09-02",
+    "url": "2026-09-02-zh.html",
+    "summary": "斯坦福大学正在将AI原生软件工程正式化为一门学科，课程内容大幅更新。",
+    "lang": "zh",
+    "ts": "2026-09-03T12:46:01.280949"
+  },
+  {
     "date": "2026-09-01",
     "url": "2026-09-01-en.html",
     "summary": "Anthropic launched Claude Fable 5.1 and Claude Mythos 5.1, claiming them as the world's most advanced models for coding ",
@@ -334,19 +348,5 @@
     "summary": "OpenAI大幅降低GPT-5.6价格，引入Sol Fast层级，提升性能。",
     "lang": "zh",
     "ts": "2026-07-31T10:47:37.059579"
-  },
-  {
-    "date": "2026-07-29",
-    "url": "2026-07-29-en.html",
-    "summary": "OpenAI's rogue-agent incident expanded beyond Hugging Face, highlighting the need for stronger enterprise hardening.",
-    "lang": "en",
-    "ts": "2026-07-30T10:32:02.052652"
-  },
-  {
-    "date": "2026-07-29",
-    "url": "2026-07-29-zh.html",
-    "summary": "OpenAI的代理安全事件扩大，涉及多个账户，强调企业需要加强安全措施。",
-    "lang": "zh",
-    "ts": "2026-07-30T10:31:52.742966"
   }
 ]
